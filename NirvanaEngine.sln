@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{637F56F4-4F3A-46A0-F8F1-BEEAE48B9030}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{6695C55D-524D-07AB-BB54-E006A72BA29B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Game\Sandbox\Sandbox.vcxproj", "{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{8249BEE1-6EAC-4D86-1732-863C03741909}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{4251C86A-AEB2-A578-3720-EC2AA380DC37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Runtime", "Runtime", "{7580CF3B-E18D-FD21-6A74-F90CD680C9D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Engine\Source\Runtime\Core\Core.vcxproj", "{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{BC9CAEFC-A8C2-7863-9108-FE2E7DCD9D2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mimalloc", "Engine\Source\ThirdParty\mimalloc\mimalloc.vcxproj", "{7381B8AB-5F4E-13B7-8867-015F74934845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{B70DBBB7-A3DB-AEBD-8C6F-1FE478DC8A22}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Premake", "Programs\ThirdParty\premake\Premake.vcxproj", "{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugEditor|Win64 = DebugEditor|Win64
+		Debug|Win64 = Debug|Win64
+		DevelopmentEditor|Win64 = DevelopmentEditor|Win64
+		Development|Win64 = Development|Win64
+		Shipping|Win64 = Shipping|Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.DebugEditor|Win64.ActiveCfg = DebugEditor Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.DebugEditor|Win64.Build.0 = DebugEditor Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Debug|Win64.Build.0 = Debug Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.DevelopmentEditor|Win64.ActiveCfg = DevelopmentEditor Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.DevelopmentEditor|Win64.Build.0 = DevelopmentEditor Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Development|Win64.ActiveCfg = Development Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Development|Win64.Build.0 = Development Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Shipping|Win64.ActiveCfg = Shipping Win64|x64
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Shipping|Win64.Build.0 = Shipping Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.DebugEditor|Win64.ActiveCfg = DebugEditor Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.DebugEditor|Win64.Build.0 = DebugEditor Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.Debug|Win64.Build.0 = Debug Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.DevelopmentEditor|Win64.ActiveCfg = DevelopmentEditor Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.DevelopmentEditor|Win64.Build.0 = DevelopmentEditor Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.Development|Win64.ActiveCfg = Development Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.Development|Win64.Build.0 = Development Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.Shipping|Win64.ActiveCfg = Shipping Win64|x64
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F}.Shipping|Win64.Build.0 = Shipping Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.DebugEditor|Win64.ActiveCfg = DebugEditor Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.DebugEditor|Win64.Build.0 = DebugEditor Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.Debug|Win64.Build.0 = Debug Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.DevelopmentEditor|Win64.ActiveCfg = DevelopmentEditor Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.DevelopmentEditor|Win64.Build.0 = DevelopmentEditor Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.Development|Win64.ActiveCfg = Development Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.Development|Win64.Build.0 = Development Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.Shipping|Win64.ActiveCfg = Shipping Win64|x64
+		{7381B8AB-5F4E-13B7-8867-015F74934845}.Shipping|Win64.Build.0 = Shipping Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.DebugEditor|Win64.ActiveCfg = DebugEditor Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.DebugEditor|Win64.Build.0 = DebugEditor Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Win64.ActiveCfg = Debug Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|Win64.Build.0 = Debug Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.DevelopmentEditor|Win64.ActiveCfg = DevelopmentEditor Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.DevelopmentEditor|Win64.Build.0 = DevelopmentEditor Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Development|Win64.ActiveCfg = Development Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Development|Win64.Build.0 = Development Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Shipping|Win64.ActiveCfg = Shipping Win64|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Shipping|Win64.Build.0 = Shipping Win64|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0} = {6695C55D-524D-07AB-BB54-E006A72BA29B}
+		{4251C86A-AEB2-A578-3720-EC2AA380DC37} = {8249BEE1-6EAC-4D86-1732-863C03741909}
+		{7580CF3B-E18D-FD21-6A74-F90CD680C9D8} = {4251C86A-AEB2-A578-3720-EC2AA380DC37}
+		{2EB4837C-1AEB-840D-C3D7-6A10AFED000F} = {7580CF3B-E18D-FD21-6A74-F90CD680C9D8}
+		{BC9CAEFC-A8C2-7863-9108-FE2E7DCD9D2F} = {4251C86A-AEB2-A578-3720-EC2AA380DC37}
+		{7381B8AB-5F4E-13B7-8867-015F74934845} = {BC9CAEFC-A8C2-7863-9108-FE2E7DCD9D2F}
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520} = {B70DBBB7-A3DB-AEBD-8C6F-1FE478DC8A22}
+	EndGlobalSection
+EndGlobal

@@ -1,41 +1,15 @@
-# Prerequisites
-*.d
+# Visual Studio Code
+.vscode/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio
+.vs/
+*.vcxproj*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Binaries
+Binaries/
 
-# Linker files
-*.ilk
+# Intermediate files
+Intermediate/
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Premake
+/Programs/ThirdParty/premake/bin/
